@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/d/genre_classification/mlruns/0/6a059dc691564e928ae9ba0002766ab4/artifacts
+end_time: 1643566001984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6a059dc691564e928ae9ba0002766ab4
+run_uuid: 6a059dc691564e928ae9ba0002766ab4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643565993117
+status: 3
+tags: []
+user_id: arkaan

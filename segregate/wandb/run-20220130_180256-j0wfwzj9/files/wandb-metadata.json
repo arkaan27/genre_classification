@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-01-30T18:02:57.909199",
+    "startedAt": "2022-01-30T18:02:56.959075",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "segregate/run.py",
+    "git": {
+        "remote": "https://github.com/arkaan27/genre_classification",
+        "commit": "48982e922208e447197fff8cf77799db2edddd22"
+    },
+    "email": null,
+    "root": "/mnt/d/genre_classification",
+    "host": "DESKTOP-8F2FI2T",
+    "username": "arkaan",
+    "executable": "/home/arkaan/miniconda3/envs/mlflow-8e70f7ffa596d15afc033d77ac5d280353ac220e/bin/python"
+}
